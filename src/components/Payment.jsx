@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function PaymentMethods() {
   return (
-    <div className="w-full bg-[#f4f5f7] py-6 px-4 border-t border-gray-300">
+    <div className="w-full max-w-8xl mx-auto bg-[#f4f5f7] py-6 px-4 border-t border-gray-300">
       <div className="flex flex-wrap justify-center items-center gap-8 max-w-8xl mx-auto">
         <img className="max-h-5 object-contain" src="/l-1.png" alt="GCash" />
         <img className="max-h-5 object-contain" src="/l-2.png" alt="Google Pay" />

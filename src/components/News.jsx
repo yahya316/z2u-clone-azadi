@@ -2,8 +2,8 @@ import React from "react";
 
 export default function News({ highlights }) {
     return (
-        <div className="bg-[#1a2d26] py-20 px-4">
-            <div className="max-w-7xl mx-auto">
+        <div className="bg-[#1a2d26] py-20 px-4 max-w-8xl mx-auto">
+            <div>
                 <h2 className="text-4xl font-bold text-center text-white uppercase mb-14 tracking-wider"> Azadi Highlights </h2>
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
                     {highlights.map((item, index) => (
