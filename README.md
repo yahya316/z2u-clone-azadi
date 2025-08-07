@@ -1,12 +1,59 @@
-# React + Vite
+# 🇵🇰 Azadi Marketplace – Z2U Clone (React + Tailwind CSS)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive React-based e-commerce platform inspired by Z2U, customized with a vibrant **14th August (Azadi)** theme to celebrate Pakistan's Independence Day. Built for practice and UI component reuse using **React.js** and **Tailwind CSS**.
 
-Currently, two official plugins are available:
+## 🌟 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🎮 **Z2U Clone** Structure: Game services, top-ups, gift cards, etc.
+- 🇵🇰 **Azadi Theme**: Green color palette, Pakistan-inspired categories, Azadi deals and ringtones
+- 🧱 **Reusable Components**: Modular components like `Navbar`, `Gift`, `Deals`, `News`, `Ratings`, and more
+- 📱 **Responsive Design**: Tailwind-powered layout optimized for mobile and desktop
+- ⚡ **Data-Driven UI**: All sections dynamically rendered via JSON-like data props
 
-## Expanding the ESLint configuration
+## 📁 Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+src/
+│
+├── components/
+│ ├── Navbar.jsx
+│ ├── Header.jsx
+│ ├── HotCard.jsx
+│ ├── TopUp.jsx
+│ ├── Gift.jsx
+│ ├── Deals.jsx
+│ ├── News.jsx
+│ ├── Ratings.jsx
+│ ├── Banner.jsx
+│ ├── Payment.jsx
+│ └── Footer.jsx
+│
+├── assets/ (images)
+├── App.jsx
+└── index.js
+
+## 📦 Tech Stack
+
+- **React.js** – Frontend library
+- **Tailwind CSS** – Utility-first CSS framework
+- **Vite** *(optional)* – for fast local dev (if used)
+
+## 🔧 Getting Started
+
+# 1. Clone the repo
+git clone https://github.com/your-username/azadi-marketplace.git
+
+# 2. Install dependencies
+cd azadi-marketplace
+npm install
+
+# 3. Run locally
+npm run dev
+
+## 🔧 ScreenShots
+<img width="1362" height="544" alt="Header" src="https://github.com/user-attachments/assets/32c309db-9117-464b-a544-07e502e5a987" />
+<img width="1355" height="553" alt="Treandy" src="https://github.com/user-attachments/assets/6804cd9e-dbbe-4395-993e-be3f857b9ec4" />
+<img width="362" height="566" alt="Components" src="https://github.com/user-attachments/assets/8094166c-3ac0-4761-b816-bb1eaeac1a0f" />
+
+
+## --Thank You--
+
